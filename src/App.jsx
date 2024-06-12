@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       {family.map((user) => {
-        return <Avatar simpson={family[user]} />;
+        return <Avatar simpson={user} />;
       })}
     </>
   );
