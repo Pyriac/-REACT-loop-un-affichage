@@ -1,0 +1,11 @@
+figure {
+  display: flex;
+}
+
+img {
+  width: 400px;
+}
+
+h2 {
+  font-size: 6rem;
+}
