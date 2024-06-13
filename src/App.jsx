@@ -1,6 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 import Avatar from "./component/avatar";
+import PropTypes from "prop-types";
 
 const family = [
   {
@@ -16,8 +16,6 @@ const family = [
     lastName: "Simpson",
   },
 ];
-
-console.log(bart);
 
 function App() {
   return (
